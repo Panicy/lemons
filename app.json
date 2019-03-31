@@ -16,11 +16,11 @@
     "list":[
       {
         "pagePath":"pages/index/index",
-        "text":"首页"
+        "text":"选购"
       },
       {
         "pagePath":"pages/class/class",
-        "text":"挑选"
+        "text":"分类"
       },
       {
         "pagePath":"pages/cart/cart",

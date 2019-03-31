@@ -1,7 +1,71 @@
 <view class='cartview'>
   <view class='cartItem'>
-    
-  
+    <view class='cartItemIcon'>
+      <icon type='success'></icon>
+    </view>
+    <view class='cartItemImg'>
+      <image src='https://img14.360buyimg.com/n0/jfs/t23005/277/2002221580/215051/d226d2e0/5b6ff426N6634c7de.jpg'></image>
+    </view>
+    <view class='cartItemDetails'>
+      <view class='cartItemDetailsview'>
+        <text></text>
+        <view  class='cartItemDetailstitel'>OPPO R17</view>
+        <view  class='cartItemDetailsnes'>蓝色 6+128G</view>
+        <view  class='cartItemDetailstBtn'>
+            <view class='cartItemDetailstBtnview'>
+              <view class='cartItemDetailstBtnPrice'>￥2999</view>
+                <view class='cartItemDetailstBtnForm'>
+                  <view class='cartItemDetailstBtnFormview'>
+                    <text>-</text>
+                    <input value='1'></input>
+                    <text>+</text>
+                 </view>
+              </view>
+            </view>
+        </view>
+        <text></text>
+      </view>
+    </view>
   </view>
 
-</view>
+   <view class='cartItem'>
+    <view class='cartItemIcon'>
+      <icon type='success'></icon>
+    </view>
+    <view class='cartItemImg'>
+      <image src='https://img14.360buyimg.com/n0/jfs/t23005/277/2002221580/215051/d226d2e0/5b6ff426N6634c7de.jpg'></image>
+    </view>
+    <view class='cartItemDetails'>
+      <view class='cartItemDetailsview'>
+        <text></text>
+        <view  class='cartItemDetailstitel'>OPPO R17</view>
+        <view  class='cartItemDetailsnes'>蓝色 6+128G</view>
+        <view  class='cartItemDetailstBtn'>
+            <view class='cartItemDetailstBtnview'>
+              <view class='cartItemDetailstBtnPrice'>￥2999</view>
+                <view class='cartItemDetailstBtnForm'>
+                  <view class='cartItemDetailstBtnFormview'>
+                    <text>-</text>
+                    <input value='1'></input>
+                    <text>+</text>
+                 </view>
+              </view>
+            </view>
+        </view>
+        <text></text>
+      </view>
+    </view>
+  </view>
+
+
+  <view class='BtnviewDemo'>
+    <view class='btncartprice'>
+      ￥2999
+    </view>
+    <view class='btncartbtn'>
+      <button type='primary' hover-class='hoverBtn'>
+        结算(1)
+      </button>
+    </view>
+  </view>
+</view> 
