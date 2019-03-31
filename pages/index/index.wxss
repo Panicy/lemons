@@ -1,0 +1,189 @@
+/* pages/index/index.wxss */
+.container{
+  position: absolute;
+  top: 0;
+}
+.searchview{
+  position: fixed;
+  height: 90rpx;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.searchviewdemo{
+  width: 90%;
+  height: 60rpx;
+  margin: 15rpx 5%;
+  background: white;
+  border-radius: 30rpx;
+  text-align: left;
+  position: relative;
+}
+.searchviewdemo icon{
+  position: absolute;
+  left: 20rpx;
+  top: 10rpx;
+}
+.searchviewdemo text{
+  line-height: 60rpx;
+  font-size: 28rpx;
+  margin-left: 160rpx;
+  color: #7B7B7B
+}
+.searchStyle{
+  background: #CECECE !important;
+  color: #2D3037 !important;
+  
+}
+.scrollviewdemo{
+}
+
+/* 轮播图 */
+.swiperImageview{
+  /* background-image: url('https://activity.ui.cn/Public/uiapp/img/banner.png'); */
+  /* background-repeat: no-repeat; */
+  /* background-color: rgba(3,118,224,.2) */
+}
+.swiperImage {
+  height: 500rpx;
+  width: 100%;
+  
+}
+.swiperImage image{
+  border-radius: 15rpx;
+  width: 100%;
+  height: 80%;
+  margin: 15% 0 5%;
+
+}
+  /*轮播图动画 */
+image.active {
+  transform: none;
+  transition: all 0.5s ease-in .2s;
+} 
+
+image.quiet {
+  transform: scale(0.8333333);
+  transition: all 0.5s ease-in .2s;
+}
+
+/* 热门 */
+.hotview{
+  padding: 15rpx 10rpx;
+}
+.hotviewTitle{
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #B32020;
+  margin-left: 50rpx
+
+}
+
+.listview{
+  margin-top: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listItem{
+  width: 49%;
+  margin: 1rpx .5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 500rpx;
+  align-items: center ;
+  background: white;
+}
+.listItem image{
+  width: 90%;
+  height: 320rpx;
+  margin: 20rpx 5%;
+}
+.listItemText{
+  padding: 10rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  font-weight: 600;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  
+}
+.listItemTexts{
+  font-size: 23rpx;
+  font-weight: 100 !important;
+}
+.moreloding{
+  height: 70rpx;
+  line-height: 70rpx;
+  width: 100%;
+  background: white;
+  text-align: center;
+  font-size: 23rpx;
+  font-weight: 700;
+  margin-top: 3rpx;
+}
+
+/* Pc */
+.Pclistview{
+  display: flex;
+  flex-wrap: wrap;
+}
+.PclistviewItem{
+  margin-top: 15rpx;
+  height: 500rpx;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+.PclistviewItemold{
+  position: relative;
+}
+.PclistviewItem image{
+  height: 320rpx;
+  width: 100%;
+}
+.topflooter{
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  font-size: 22rpx;
+  background: rgb(214, 202, 202);
+  padding: 10rpx;
+  border-radius: 5rpx;
+  color: #686868;
+  
+}
+
+.wechatviews{
+  margin-top: 20rpx;
+  background: white;
+  padding: 20rpx 0;
+}
+.wechatview{
+  text-align: center;
+  background: #2D3037;
+  width: 90%;
+  margin: 0 5%;
+  height: 500rpx;
+  border-radius: 20rpx;
+
+}
+.wechatview image{
+  width: 90%; 
+  height: 400rpx;
+  margin: 0 5%;
+
+}
+.listItemTextchat{
+  color: white;
+  font-weight: 700;
+  font-size: 28rpx;
+}

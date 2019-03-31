@@ -1,0 +1,16 @@
+<view class='classview'>
+
+  <block wx:for='{{classList}}' wx:key>
+    <view class='classItem'>
+      <view  class='classItemImg'>
+        <image mode='aspectFit'  src='{{item.imageUrl}}'></image>
+      </view>
+      <view class='classItemTex'>
+        <view class='classItemTexTile'>{{item.className}}</view>
+        <text class='classItemTexnes'>{{item.nameDetails}}</text>
+      </view>
+    </view>
+  </block>
+
+
+</view>

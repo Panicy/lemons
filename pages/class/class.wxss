@@ -1,0 +1,32 @@
+page{
+  background: white;
+}
+
+.classItem{
+  display: flex;
+  flex-direction: row;
+  height: 200rpx;
+  overflow: hidden;
+  align-items: center;
+  border-bottom: 1rpx solid #E9E9E9;
+}
+.classItemImg{
+  align-items: flex-start;
+  width: 300rpx;
+  height: 200rpx;
+}
+.classItemImg image{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx 70rpx;
+}
+.classItemTex{
+  padding: 0 40rpx;
+  align-items: baseline
+}
+.classItemTexTile{
+  font-weight: 900;
+}
+.classItemTexnes{
+  font-size: 23rpx;
+}

@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/cart/cart",
+    "pages/class/class",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页"
+      },
+      {
+        "pagePath":"pages/class/class",
+        "text":"挑选"
+      },
+      {
+        "pagePath":"pages/cart/cart",
+        "text":"购物车"
+      }
+    ]
+  }
+}

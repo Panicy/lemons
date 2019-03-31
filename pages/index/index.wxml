@@ -1,0 +1,107 @@
+<view class='container'>
+  <view class='searchview' style='background:rgba(255,255,255,{{opc}})'>
+    <view class="searchviewdemo  {{opc>0?'searchStyle':''}} {{opc==0?'':''}}" >
+      <icon type='search'></icon>
+      <text>搜索</text>
+    </view>
+  </view>
+  <scroll-view class='scrollviewdemo' scroll-y='true' style="height:{{SysInfo.screenHeight}}px;" bindscroll='scrollFns'>
+  <view class='swiperImageview'>
+    <swiper class='swiperImage' indicator-dots='true' autoplay='true' indicator-color='rgba(0, 0, 0, .3)' interval='2500' duration='500' display-multiple-items='1'  circular='true' previous-margin='30px' next-margin='30px' bindchange='changedImg'>
+      <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+        <swiper-item class='swiperImage'>
+          <image src="{{item}}" class="{{swiperIndex == index ? 'active' : 'quiet'}}" mode='aspectFill'>
+        </image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+ <view class='hotview'>
+   <view class='hotviewTitle'>
+    热门数码推荐Hot
+   </view>
+   <view class='listview'>
+      <view class='listItem'>
+          <image    mode='aspectFit' src='https://img12.360buyimg.com/n1/s450x450_jfs/t7345/317/2992103239/101654/957d6a4b/59b8d845N33be9092.jpg'></image>
+          <view class='listItemText'>Apple Watch Series 3智能手表</view>
+          <view class='listItemTexts'>￥399</view>
+      </view>
+      <view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/12013/8/11611/121395/5c906608E5b10fed7/c8b5b02d7c8a9529.jpg'></image>
+          <view class='listItemText'>Apple iPad mini 2019年新款平板电脑 7.9英寸</view>
+          <view class='listItemTexts'>￥2999</view>
+      </view>
+      <view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view>
+      <view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view>
+
+      <view class='moreloding'>
+        更多数码产品>
+      </view>
+   </view>
+ </view> 
+
+
+  <view class='hotview'>
+   <view class='hotviewTitle'>
+    Pc电脑Hot
+   </view>
+   <view class='Pclistview'>
+      <view class='PclistviewItem'>
+        <image mode='aspectFit' src='https://asset1.djicdn.com/uploads/brand_site_product/cover/12/small_1%402x.png'></image>
+        <view  class='listItemText'>特洛Tlleo</view>
+        <view class='listItemTexts'>￥699</view>
+      </view>
+
+      <view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view>
+      <view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view>
+
+       <view class='moreloding'>
+        更多Pc产品>
+      </view>
+   </view>
+ </view> 
+
+  <view class='oldview'>
+    <view class='hotviewTitle'>
+    精品二手old
+   </view>
+    <view class='PclistviewItem PclistviewItemold'>
+        <image mode='aspectFit' src='https://asset1.djicdn.com/uploads/brand_site_product/cover/12/small_1%402x.png'></image>
+        <view  class='listItemText'>特洛Tlleo</view>
+        <view class='listItemTexts'>￥699</view>
+        <view class='topflooter'>
+        精品推荐
+      </view>
+      </view>
+      <view class='moreloding'>
+        更多二手产品>
+      </view>
+  </view>
+
+
+  <view class=' wechatviews'>
+    <view class=' wechatview'>
+        <image mode='aspectFit' src='/asset/image/wechat.jpg'></image>
+        <view  class='listItemTextchat'>开发我的微信小程序</view>
+        <!-- <view class='listItemTexts'>￥699</view> -->
+   </view>
+  </view>
+
+</scroll-view>
+</view>
