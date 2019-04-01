@@ -1,7 +1,7 @@
 <view class='container'>
   <view class='searchview' style='background:rgba(255,255,255,{{opc}})'>
     <view class="searchviewdemo {{opc>0?'searchStyle':''}} {{opc==0?'':''}}"bindtap='ToSearch'  >
-      <icon size='28rpx' type='search'></icon>
+      <icon size='28rpx' class='iconfont icon-fenxiang' ></icon>
       <text>搜索</text>
     </view>
   </view>
@@ -21,7 +21,7 @@
     热门数码推荐Hot
    </view>
    <view class='listview'>
-      <view class='listItem'>
+      <view class='listItem' bindtap='ToCdetails'>
           <image    mode='aspectFit' src='https://img12.360buyimg.com/n1/s450x450_jfs/t7345/317/2992103239/101654/957d6a4b/59b8d845N33be9092.jpg'></image>
           <view class='listItemText'>Apple Watch Series 3智能手表</view>
           <view class='listItemTexts'>￥399</view>

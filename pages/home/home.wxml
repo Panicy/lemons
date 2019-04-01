@@ -13,11 +13,11 @@
   <view class='homedetails'>
     <view class='homedetailsItem' bindtap='ToOrder' hover-class='hoverClass'>
       <view>⚪我的订单</view>
-      <icon class='rightIcon' size='30rpx' type='info'></icon>
+      <icon class='rightIcon'  class='iconfont icon-dingdan'  size='30rpx' ></icon>
     </view>
-    <view class='homedetailsItem' bindtap='ToCoupon'>
+    <view class='homedetailsItem'  hover-class='hoverClass' bindtap='ToCoupon'>
       <view>⚪优惠券</view>
-      <icon class='rightIcon' size='30rpx' type='info'></icon>
+      <icon class='rightIcon'  class='iconfont icon-web-icon-'  size='30rpx'></icon>
     </view>
 
   </view>

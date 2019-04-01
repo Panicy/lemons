@@ -1,0 +1,125 @@
+/* pages/Cdetails/Cdetails.wxss */
+.CdetailsImage{
+  height: 450rpx;
+  background: white;
+  text-align: center;
+}
+.CdetailsImageSwiper{
+  height: 300rpx;
+  padding: 50rpx 0;
+}
+.CdetailsImageSwiperItem{
+  height: 300rpx;
+  text-align: center;
+}
+.CdetailsImageSwiperItem image{
+  width: 250rpx;
+  height: 250rpx;
+  margin: 25rpx;
+}
+.itemTile{
+  font-weight: 900;
+  line-height: 50rpx;
+}
+.activeImg{
+  transform: scale(.7);
+  transition: .8s all ease .3s;
+}
+.noImg{
+  transform: none;
+  transition: .8s all ease .3s;
+}
+
+.CdetailsRank{
+  background: white;
+  margin-top: 20rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #F0F0F0;
+}
+.CdetailsRankName{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #F0F0F0;
+}
+.CdetailsRankName text{
+  background: #E0E0E0;
+  padding: 15rpx 20rpx;
+  font-size: 25rpx;
+  margin: 10rpx;
+  border-radius: 6rpx;
+  color: #4C4C4C;
+}
+.CdetailsRankPrice{
+  padding-top: 30rpx;
+}
+.CdetailsRankPrice text{
+  padding: 15rpx 20rpx;
+  font-size: 25rpx;
+  margin: 10rpx;
+  border-radius: 6rpx;
+  color: #4C4C4C;
+  font-weight: 600;
+}
+
+.CdetailsBtns{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 30rpx;
+}
+.CdetailsBtns view{
+  background: #3AE2CE;
+  font-size: 24rpx;
+  color: white;
+  padding: 15rpx 25rpx;
+  margin: 0 10rpx;
+  border-radius: 8rpx;
+}
+.CdetailsBtns text{
+  position: absolute;
+  left: 30rpx;
+  top: 15rpx;
+  font-size: 24rpx;
+ 
+}
+
+.CdetailsNewsTile{
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  background: white;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  padding: 0 30rpx;
+  justify-content: space-between;
+}
+.CdetailsNewsTile button{
+  background: none;
+  font-size: 26rpx;
+  background: #FFAB00;
+  height: 60rpx;
+  border-radius: 5rpx;
+  line-height: 60rpx;
+  margin: 10rpx;
+  color: white;
+
+}
+.CdetailsNewsTile button:after{
+  border: none;
+
+}
+.CdetailsNewsBtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1rpx solid #F0F0F0;
+  background: white;
+}
+.CdetailsNewsBtnTile{
+  font-size: 26rpx;
+  padding: 25rpx;
+}

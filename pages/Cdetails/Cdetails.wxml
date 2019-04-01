@@ -1,0 +1,56 @@
+<!--pages/Cdetails/Cdetails.wxml-->
+<view class='Cdetailsview'>
+  <view class='CdetailsImage'>
+    <swiper class='CdetailsImageSwiper' indicator-dots='true' bindchange='changedImg' bindanimationfinish='animationImg' current='{{current}}'>
+     <block wx:for='{{imageUrl}}' wx:key>
+      <swiper-item  class='CdetailsImageSwiperItem'>
+        <image mode='aspectFit' class='{{index==current?"activeImg ":"noImg"}}' src='{{item}}'></image>
+      </swiper-item>
+     </block>
+    </swiper>
+    <view class='itemTile'>OPPO R17</view>
+  </view>
+  <view class='CdetailsRank'>
+    <view class='CdetailsRankName'>
+      <text>6+64G</text>
+      <text>6+64G</text>
+      <text>6+64G</text>
+      <text>6+64G</text>
+      <text>6+64G</text>
+    </view>
+    <view class='CdetailsRankName'>
+      <text>极光色</text>
+      <text>祖母绿</text>
+      <text>流光蓝</text>
+      <text>霓虹紫</text>
+      <text>冰萃银</text>
+      <text>流光蓝</text>
+      <text>霓虹紫</text>
+      <text>冰萃银</text>
+    </view>
+    <view class='CdetailsRankPrice'>
+      <text>￥2999</text>
+    </view>
+    <view class='CdetailsBtns'>
+      <text>邮费：包邮</text>
+      <view>加入购物车</view>
+      <view>立即购买</view>
+    </view>
+  </view>
+
+
+  <view class='CdetailsNews'>
+    <view class='CdetailsNewsTile'>
+      <view>商品信息</view>
+      <button>购买咨询</button>
+    </view>
+  </view>
+
+  <view class='CdetailsNewsBtn'>
+    <view class='CdetailsNewsBtnTile'>
+    ⚪产品详情
+    </view>
+    <icon size='26rpx;' class='iconfont icon-you'></icon>
+  </view>
+
+</view>

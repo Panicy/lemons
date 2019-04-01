@@ -38,6 +38,7 @@ page{
 .classItemTexTile{
   font-size: 26rpx;
   font-weight: 600;
+  color: #4875B7;
 }
 .classItemTexnes{
   font-size: 23rpx;

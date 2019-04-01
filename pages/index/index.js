@@ -39,7 +39,12 @@ Page({
      opc: opc
    })
   },
-
+  //跳转商品详情
+  ToCdetails(){
+    wx.navigateTo({
+      url: '/pages/Cdetails/Cdetails',
+    })
+  },
   //跳转搜索
   ToSearch(){
     console.log(555)

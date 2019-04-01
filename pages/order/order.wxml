@@ -4,6 +4,7 @@
     <view class='orderItemOrderNumber'>
       <icon size='25rpx' type='success'></icon>
       <text>654006</text>
+      <text >时间</text>
       <text class='orderItemOrderNumberRight'>订单完成</text>
     </view>
     <view class='orderItemOrderDetails'>

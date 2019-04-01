@@ -18,13 +18,14 @@
   position: absolute;
   right: 10rpx;
   top: 10rpx;
+  color: #4875B7
 }
 
 
 .orderItemOrderNumber text{
   display: inline-block;
   font-size: 23rpx;
-  margin: 10rpx ;
+  margin: 10rpx 20rpx;
 
 }
 .orderItemOrderDetails{
