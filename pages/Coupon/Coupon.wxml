@@ -1,0 +1,16 @@
+<!--pages/Coupon/Coupon.wxml-->
+<view class='couponview'>
+  <view class='couponItem'>
+    <view class='couponItemleft'>⚪通用优惠券</view>
+    <view class='couponItemcenter'>￥100</view>
+    <view class='couponright'>去使用</view>
+  </view>
+
+
+  <!-- 空白 -->
+  <view class='isnull'>
+    <view class='couponItems'>
+      <view class='couponItemcenters'>暂无优惠券 </view>
+    </view>
+  </view>
+</view>

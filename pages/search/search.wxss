@@ -1,0 +1,39 @@
+/* pages/search/search.wxss */
+.searchdemo{
+  height: 100rpx;
+  background: white;
+  padding-top: 10rpx;
+}
+.searchdemo input{
+  background: #d8d8d8;
+  width: 90%;
+  height: 80rpx;
+  margin: 10rpx 5%;
+  border-radius: 5rpx;
+  font-size: 26rpx;
+  padding-left: 20rpx;
+}
+.Ips{
+  font-size: 26rpx;
+  padding-left: 20rpx;
+}
+.historysearch{
+  padding-left: 5%;
+  font-size: 25rpx;
+  color: #999999;
+  margin-top: 10rpx;
+}
+.searchdetails{
+  width: 90%;
+  margin: 10rpx 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.searchdetails text{
+  padding: 10rpx 15rpx;
+  border-radius: 5rpx;
+  background: white;
+  font-size: 23rpx;
+  margin: 10rpx;
+  color: #999999
+ }

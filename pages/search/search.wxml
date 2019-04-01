@@ -1,0 +1,19 @@
+<!--pages/search/search.wxml-->
+<view class='searchview'>
+  <view class='searchdemo'>
+    <input placeholder='搜索'  placeholder-class='Ips' confirm-type='done' bindconfirm='Endvalue'></input>
+  </view>
+
+  <view class='historysearch'>
+    <view>历史搜索</view>
+  </view>
+  <view class='searchdetails'>
+    <text>OPPO</text>
+    <text>iPhone</text>
+    <text>华为</text>
+    <text>三星</text>
+    <text>Iphone X</text>
+    <text>OPPO R17</text>
+  
+  </view>
+</view>

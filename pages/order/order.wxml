@@ -1,0 +1,25 @@
+<!--pages/order/order.wxml-->
+<view class='orderView'>
+  <view class='orderItem' hover-class='hoverClass'>
+    <view class='orderItemOrderNumber'>
+      <icon size='25rpx' type='success'></icon>
+      <text>654006</text>
+      <text class='orderItemOrderNumberRight'>订单完成</text>
+    </view>
+    <view class='orderItemOrderDetails'>
+      <image mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t23005/277/2002221580/215051/d226d2e0/5b6ff426N6634c7de.jpg'></image>
+      <view class='orderItemOrderDetailsText'>
+        <view>OPPO R17</view>
+        <text>6+128G</text>
+      </view>
+    </view>
+    <view class='orderItemOrdertotle'>
+      <view>共一个商品<text>     总计</text>
+      <text class='orderItemOrdertotleprice'>    ￥2999</text>
+      </view>
+      <view class='orderItemOrdertotleBtn'>立即支付</view>
+    </view>
+
+  </view>
+
+</view>

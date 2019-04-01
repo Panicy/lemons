@@ -1,10 +1,14 @@
 // pages/class/class.js
+let App=getApp();
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    animationData:{},
+    showMask:true,
     classList:[
       {
       imageUrl:'https://img14.360buyimg.com/n0/jfs/t23005/277/2002221580/215051/d226d2e0/5b6ff426N6634c7de.jpg',
@@ -36,14 +40,64 @@ Page({
         className: '精品二手',
         nameDetails: '性能极致，超高性价比'
       }
-    ]
+    ],
+    width: App.getSysIngo().screenWidth * 0.8,
+    sysInfo: App.getSysIngo(),
+  },
+  showAnimation(){
+    let This=this;
+    const animation=wx.createAnimation({
+      duration:300,
+      timeingFunction:'ease'
+    })
+    This.animation=animation;
+    animation.translateX(-This.data.width,0).step();
+    This.setData({
+      animationData:animation.export()
+    })
+  },
+  closeAnimation(){
+    let This = this;
+    const animation=wx.createAnimation({
+      duration:300,
+      timeingFunction:'ease'
+    })
+    This.animation=animation;
+    animation.translateX(0,-This.data.width).step();
+    This.setData({
+      animationData:animation.export()
+    })
   },
 
+  // 点击分类列表
+  classItemclick(){
+    let This=this;
+    This.setData({
+      showMask:false
+    })
+    This.showAnimation();
+  },
+
+  // 点击商品列表
+  commodityBtn(e){
+    let This=this;
+    This.closeAnimation();
+    
+  },
+  //点击mask遮罩
+  maskBtn(){
+    let This = this;
+    This.setData({
+      showMask: true
+    })
+    This.closeAnimation();
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    console.log(this.data.width)
+    
   },
 
   /**

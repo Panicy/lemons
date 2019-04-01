@@ -23,11 +23,11 @@
 .searchviewdemo icon{
   position: absolute;
   left: 20rpx;
-  top: 10rpx;
+  top: 18rpx;
 }
 .searchviewdemo text{
   line-height: 60rpx;
-  font-size: 28rpx;
+  font-size: 26rpx;
   margin-left: 160rpx;
   color: #7B7B7B
 }

@@ -1,0 +1,26 @@
+<view class='homeview'>
+  <view class='hometile'>
+      <image mode='aspectFill' src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554091690690&di=d448b13d92b77e0b280b00aa86dbad8c&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Fback_pic%2F03%2F53%2F68%2F8957986dd29fb04.jpg'></image>
+  </view>
+
+  <view class='homeuser'>
+    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1554091892996&di=d1f9841d2ae5811e59abd053ac61adea&imgtype=0&src=http%3A%2F%2Fwww.jituwang.com%2Fuploads%2Fallimg%2F150313%2F258840-1503130S04730.jpg'></image>
+  </view>
+  <view class='homename'>
+    Hey
+  </view>
+
+  <view class='homedetails'>
+    <view class='homedetailsItem' bindtap='ToOrder' hover-class='hoverClass'>
+      <view>⚪我的订单</view>
+      <icon class='rightIcon' size='30rpx' type='info'></icon>
+    </view>
+    <view class='homedetailsItem' bindtap='ToCoupon'>
+      <view>⚪优惠券</view>
+      <icon class='rightIcon' size='30rpx' type='info'></icon>
+    </view>
+
+  </view>
+
+
+</view>

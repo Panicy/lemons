@@ -1,5 +1,6 @@
 <view class='cartview'>
-  <view class='cartItem'>
+  <view class='cartItem' hover-class='hoverClass'>
+    <view class='removeview'>删除</view>
     <view class='cartItemIcon'>
       <icon type='success'></icon>
     </view>
@@ -28,7 +29,8 @@
     </view>
   </view>
 
-   <view class='cartItem'>
+   <view class='cartItem' hover-class='hoverClass'>
+    <view class='removeview'>删除</view>
     <view class='cartItemIcon'>
       <icon type='success'></icon>
     </view>

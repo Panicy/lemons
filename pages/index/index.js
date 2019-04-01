@@ -39,6 +39,14 @@ Page({
      opc: opc
    })
   },
+
+  //跳转搜索
+  ToSearch(){
+    console.log(555)
+    wx.navigateTo({
+      url: '/pages/search/search',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,7 +1,18 @@
 page{
   background: white;
+  height: 100%;
+  width: 100%;
 }
 
+.classview{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  
+} 
 .classItem{
   display: flex;
   flex-direction: row;
@@ -25,8 +36,32 @@ page{
   align-items: baseline
 }
 .classItemTexTile{
-  font-weight: 900;
+  font-size: 26rpx;
+  font-weight: 600;
 }
 .classItemTexnes{
   font-size: 23rpx;
+}
+
+.showlistview{
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  height: 100%;
+  background: white;
+}
+.showlistviewTitle{
+  font-weight: 500;
+  font-size: 25rpx;
+  background: white;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #8B030C;
+  border-bottom: 1rpx solid #F0F0F0;
+
+}
+.showlistviewItems{
+  display: flex;
+  flex-wrap: wrap;
+
 }

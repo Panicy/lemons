@@ -1,7 +1,7 @@
+<view class='mask'  hidden='{{showMask}}' bindtap='maskBtn'> </view>
 <view class='classview'>
-
   <block wx:for='{{classList}}' wx:key>
-    <view class='classItem'>
+    <view class='classItem' hover-class='hoverClass' bindtap='classItemclick'>
       <view  class='classItemImg'>
         <image mode='aspectFit'  src='{{item.imageUrl}}'></image>
       </view>
@@ -13,4 +13,47 @@
   </block>
 
 
+
+
+
 </view>
+  <!-- list列表 -->
+  <view class='showlistview' style='width:{{width}}px;right:{{-width}}px' animation='{{animationData}}'>
+    <view class='showlistviewTitle'>OPPO</view>
+    <scroll-view class='listScrollview' style='height:{{sysInfo.screenHeight-200}}px' scroll-y='true'>
+      <view class='showlistviewItems'>
+        <view class='listItem' bindtap='commodityBtn'>
+            <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+            <view  class='listItemText'>Apple iPhone XS Max</view>
+            <view class='listItemTexts'>￥8499</view>
+        </view>
+        <view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view>
+      <view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view><view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view><view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view><view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view><view class='listItem'>
+          <image    mode='aspectFit' src='https://img14.360buyimg.com/n0/jfs/t1/4860/25/3563/134740/5b997bffEeb5b5613/0d8dfde177089495.jpg'></image>
+          <view  class='listItemText'>Apple iPhone XS Max</view>
+          <view class='listItemTexts'>￥8499</view>
+      </view>
+      </view>
+       
+    </scroll-view>
+  </view>

@@ -8,6 +8,17 @@
   align-items: center;
   margin-bottom: 10rpx;
 }
+
+.removeview{
+  position: absolute;
+  top: 25rpx;
+  right: 20rpx;
+  font-size: 22rpx;
+  background: #D84C29;
+  padding: 10rpx 15rpx;
+  border-radius: 5rpx;
+  color: white;
+}
 .cartItemIcon{
   width: 100rpx;
   text-align: center
@@ -95,11 +106,11 @@ position: absolute;
 .btncartbtn button{
   text-align: center;
   width: 160rpx;
-  height: 80rpx;
-  font-size: 28rpx;
-  line-height: 80rpx;
-  margin: 20rpx auto;
-  font-weight: 600
+  height: 70rpx;
+  font-size: 26rpx;
+  line-height: 70rpx;
+  margin: 25rpx auto;
+  font-weight: 400
 }
 .hoverBtn{
   background: red !important;

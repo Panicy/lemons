@@ -1,7 +1,7 @@
 <view class='container'>
   <view class='searchview' style='background:rgba(255,255,255,{{opc}})'>
-    <view class="searchviewdemo  {{opc>0?'searchStyle':''}} {{opc==0?'':''}}" >
-      <icon type='search'></icon>
+    <view class="searchviewdemo {{opc>0?'searchStyle':''}} {{opc==0?'':''}}"bindtap='ToSearch'  >
+      <icon size='28rpx' type='search'></icon>
       <text>搜索</text>
     </view>
   </view>

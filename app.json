@@ -1,22 +1,26 @@
 {
   "pages":[
-    "pages/cart/cart",
-    "pages/class/class",
     "pages/index/index",
+    "pages/search/search",
+    "pages/class/class",
+    "pages/cart/cart",
+    "pages/order/order",
+    "pages/home/home",
+    "pages/Coupon/Coupon",
     "pages/logs/logs"
     
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "white",
-    "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
   },
   "tabBar":{
     "list":[
       {
         "pagePath":"pages/index/index",
-        "text":"选购"
+        "text":"选购",
+        "iconPath":"./asset/image/sy.png"
       },
       {
         "pagePath":"pages/class/class",
@@ -25,6 +29,10 @@
       {
         "pagePath":"pages/cart/cart",
         "text":"购物车"
+      },
+      {
+        "pagePath":"pages/home/home",
+        "text":"我的"
       }
     ]
   }

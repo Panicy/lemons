@@ -1,0 +1,53 @@
+/* pages/home/home.wxss */
+page{
+  background: white;
+}
+.hometile{
+  position: relative;
+  height: 500rpx;
+  width: 100%;
+  overflow: hidden;
+}
+.hometile image{
+  width: 100%;
+  height: 400rpx;
+}
+.homeuser{
+  position: absolute;
+  left: 30rpx;
+  top: 330rpx;
+}
+.homeuser image{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 10rpx;
+}
+.homename{
+  position: absolute;
+  left: 180rpx;
+  top: 350rpx;
+  color: white;
+  font-weight: 600;
+  font-size: 26rpx;
+}
+
+
+/* 订单 */
+.homedetailsItem{
+  width:90%;
+  margin: 0 5%;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start 
+}
+.homedetailsItem view{
+  display: inline-block;
+  font-size: 26rpx;
+  padding: 0 20rpx;
+}
+.homedetailsItem icon{
+  margin-top: 28rpx;
+}
