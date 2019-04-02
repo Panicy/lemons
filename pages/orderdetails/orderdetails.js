@@ -1,4 +1,4 @@
-// pages/order/order.js
+// pages/orderdetails/orderdetails.js
 Page({
 
   /**
@@ -8,12 +8,6 @@ Page({
 
   },
 
-  //查看订单详情
-  orderDts(){
-    wx.navigateTo({
-      url: '/pages/orderdetails/orderdetails',
-    })
-  },
   /**
    * 生命周期函数--监听页面加载
    */

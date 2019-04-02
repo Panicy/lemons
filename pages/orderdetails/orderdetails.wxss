@@ -1,0 +1,103 @@
+/* pages/orderdetails/orderdetails.wxss */
+.tile{
+  background: white;
+}
+.activeItemText{
+  color: #509FC9;
+}
+.tileitem{
+  padding: 0 20rpx;
+  height: 45rpx;
+  line-height: 45rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 26rpx;
+  color: #777777;
+}
+
+.centerview{
+  margin-top: 20rpx;
+  background: white;
+  padding: 20rpx;
+  font-size: 26rpx;
+  line-height: 50rpx;
+  color: #777777;
+}
+.cItem{
+  margin-top: 20rpx;
+  background: white;
+  padding: 20rpx;
+}
+.cItemTitle{
+  font-weight: 500;
+  font-size: 26rpx
+}
+
+.cItemDetails{
+  height: 180rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx 0;
+  border-bottom: 1rpx solid #E7E7E7
+}
+.cItemDetails image{
+  background: red;
+  height: 120rpx;
+  width: 120rpx;
+  margin: 20rpx;
+}
+.cItemDetailsText{
+  display: flex;
+  flex-direction: column;
+  font-size: 26rpx;
+  justify-content: center;
+}
+.cItemDetailsText text{
+  line-height: 50rpx;
+  margin: 0 20rpx;
+}
+
+.cItemBom{
+  padding-top: 20rpx;
+}
+.cItemBomview{
+  font-size: 26rpx;
+  color: #777777;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 45rpx;
+}
+.itemTotal{
+  background: #509FC9;
+  height: 60rpx;
+  width: 100%;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  color: white; 
+  overflow: hidden 
+}
+.itemTotal text{
+  float: right;
+  margin-right: 20rpx;
+}
+.fiexBomBtn{
+  height: 80rpx;
+  position: fixed;
+  bottom: 20rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end
+}
+.fiexBomBtn text{
+  margin: 10rpx 20rpx;
+  background: #509FC9;
+  height: 60rpx;
+  color:white;
+  padding: 0 20rpx;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  border-radius: 5rpx;
+}

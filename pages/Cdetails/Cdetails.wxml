@@ -50,7 +50,7 @@
     <view class='CdetailsNewsBtnTile'>
     ⚪产品详情
     </view>
-    <icon size='26rpx;' class='iconfont icon-you'></icon>
+    <icon size='26rpx;' class='iconfont icon-you'></icon> 
   </view>
 
 </view>

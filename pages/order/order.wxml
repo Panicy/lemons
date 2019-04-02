@@ -1,8 +1,8 @@
 <!--pages/order/order.wxml-->
 <view class='orderView'>
-  <view class='orderItem' hover-class='hoverClass'>
+  <view class='orderItem' bindtap='orderDts' hover-class='hoverClass'>
     <view class='orderItemOrderNumber'>
-      <icon size='25rpx' type='success'></icon>
+      <icon size='25rpx' class='iconfont icon-dingdan'></icon>
       <text>654006</text>
       <text >时间</text>
       <text class='orderItemOrderNumberRight'>订单完成</text>

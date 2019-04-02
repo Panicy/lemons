@@ -1,0 +1,74 @@
+<!--pages/orderdetails/orderdetails.wxml-->
+<view class='orderdatailsview'>
+  <view class='tile'>
+    <view class='tileitem'>
+      <text>订单状态</text>
+      <text class='activeItemText'>待支付</text>
+    </view>
+    <view class='tileitem'>
+      <text>订单编号</text>
+      <text  class='activeItemText'>322322</text>
+    </view>
+    <view class='tileitem'>
+      <text>日期</text>
+      <text>20190201</text>
+    </view>
+  </view>
+  <view class='centerview'>
+    <view  class='activeItemText'>⚪收货地址</view>
+    <view>收货人</view>
+    <view>电话</view>
+    <view>地址</view>
+    <view>邮编</view>
+  </view>
+
+  <view class='cItem'>
+    <view class='cItemTitle activeItemText'>⚪订单详情___数量(2)</view>
+    <view class='cItemDetails '>
+      <image src='https://img12.360buyimg.com/n1/s450x450_jfs/t7345/317/2992103239/101654/957d6a4b/59b8d845N33be9092.jpg'></image>
+      <view class='cItemDetailsText'>
+          <text>iPhone X </text>
+          <text>黑色</text>
+      </view>
+      <view class='cItemDetailsText'>
+          <text>64G </text>
+          <text >￥6999</text>
+      </view>
+    </view>
+    <view class='cItemDetails '>
+      <image src='https://img12.360buyimg.com/n1/s450x450_jfs/t7345/317/2992103239/101654/957d6a4b/59b8d845N33be9092.jpg'></image>
+      <view class='cItemDetailsText'>
+          <text>iPhone X </text>
+          <text>黑色</text>
+      </view>
+      <view class='cItemDetailsText'>
+          <text>64G </text>
+          <text >￥6999</text>
+      </view>
+    </view>
+
+
+    <view class='cItemBom'>
+      <view class='cItemBomview'>
+        <text>小计</text>
+        <text class='activeItemText'>￥699</text>
+      </view>
+      <view class='cItemBomview'>
+        <text>运费</text>
+        <text class='activeItemText'>￥9</text>
+      </view>
+      <view class='cItemBomview'>
+        <text>优惠券</text>
+        <text class='activeItemText'>￥0</text>
+      </view>
+    </view>
+  </view>
+   <view class='itemTotal'>
+      <text>总计￥699</text>
+    </view>
+  <view class='fiexBomBtn'>
+    <text>取消订单</text>
+    <text>支付</text>
+  </view>
+
+</view>
